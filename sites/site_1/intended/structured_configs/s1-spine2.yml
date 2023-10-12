@@ -53,7 +53,7 @@ vlans:
   name: Twenty
   tenant: MY_FABRIC
 - id: 25
-  name: Twenty-five
+  name: Twenty-Five
   tenant: MY_FABRIC
 vlan_interfaces:
 - name: Vlan4093
@@ -91,7 +91,7 @@ vlan_interfaces:
   tenant: MY_FABRIC
   tags:
   - Wifi
-  description: Twenty-five
+  description: Twenty-Five
   shutdown: false
   ip_address: 10.25.25.3/24
   ip_virtual_router_addresses:
