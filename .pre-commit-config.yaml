@@ -13,3 +13,19 @@ repos:
 
       - id: check-yaml
         files: sites/site_1/group_vars/|sites/site_2/group_vars/
+
+   steps:
+      - name: Hi
+        run: echo "Hello World!"
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+
+      - name: Install Python requirements
+        run: pip3 install requirements.txt
+
+      - name: Run pre-commit on files
+        uses: pre-commit/action@v3.0.0
