@@ -14,7 +14,9 @@ jobs:
     steps:
       - name: Hi
         run: echo "Hello World!"
-
+        
+      - name: Checkout
+        uses: actions/checkout@v3
       # - name: Checkout
       #   uses: actions/checkout@v3
 
